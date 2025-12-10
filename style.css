@@ -282,3 +282,164 @@
       margin-top: 25px;
     }
  
+
+/* Large Tablets (max-width: 992px) */
+@media (max-width: 992px) {
+
+  .hero {
+    padding: 80px 40px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-text {
+    max-width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .hero img {
+    width: 300px;
+  }
+
+  .benefit-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  section {
+    padding: 60px 40px;
+  }
+
+  header {
+    padding: 15px 30px;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+}
+
+/* Tablets & Large Phones (max-width: 768px) */
+@media (max-width: 768px) {
+
+  nav a {
+    margin-left: 15px;
+    font-size: 15px;
+  }
+
+  .hero-text h2 {
+    font-size: 38px;
+  }
+
+  .hero-text p {
+    font-size: 16px;
+  }
+
+  .highlight img {
+    width: 260px;
+    float: none;
+    margin: 20px auto;
+    display: block;
+  }
+
+  .benefit-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    padding: 20px;
+  }
+
+  .cta {
+    padding: 50px 20px;
+  }
+
+  footer {
+    font-size: 14px;
+  }
+}
+
+/* Mobile Devices (max-width: 576px) */
+@media (max-width: 576px) {
+
+  header {
+    padding: 15px 20px;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  nav a {
+    margin-left: 10px;
+    font-size: 14px;
+  }
+
+  .hero {
+    padding: 60px 20px;
+  }
+
+  .hero-text h2 {
+    font-size: 32px;
+  }
+
+  .hero img {
+    width: 220px;
+  }
+
+  section {
+    padding: 40px 20px;
+  }
+
+  .about, .benefits, .highlight {
+    padding: 30px;
+  }
+
+  .title {
+    font-size: 26px;
+  }
+
+  #topBtn {
+    width: 50px;
+    height: 50px;
+    bottom: 20px;
+    right: 20px;
+    font-size: 20px;
+  }
+
+  .modal-box {
+    width: 85%;
+    padding: 30px;
+  }
+
+  .modal-box input {
+    width: 100%;
+  }
+}
+
+/* Extra Small Phones (max-width: 400px) */
+@media (max-width: 400px) {
+
+  header h1 {
+    font-size: 22px;
+  }
+
+  nav a {
+    font-size: 13px;
+  }
+
+  .hero-text h2 {
+    font-size: 28px;
+  }
+
+  .btn {
+    padding: 12px 28px;
+    font-size: 16px;
+  }
+
+  .hero img {
+    width: 190px;
+  }
+
+  .highlight img {
+    width: 200px;
+  }
+}
