@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PureFlow Mineral Water</title>
+
+ <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="progress-bar"></div>
+
+<!-- RANDOM FLOATING BUBBLES -->
+
+
+<header>
+  <h1>PureFlow</h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#benefits">Benefits</a>
+    <a href="#product">Product</a>
+  </nav>
+</header>
+
+<div class="hero fade">
+  <div class="hero-text">
+    <h2>Premium Mineral Water</h2>
+    <p>Ultra-pure hydration, naturally filtered through deep layers of earth. Experience the luxury of true purity.</p>
+    <button class="btn" onclick="openModal()">Subscribe</button>
+  </div>
+
+  <img src="assets/mineral water.webp" />
+</div>
+
+<section id="about" class="about fade">
+  <h2 class="title">About PureFlow</h2>
+  <p>PureFlow Mineral Water is sourced from naturally protected underground reservoirs, ensuring impeccable purity and a perfect mineral balance crafted by nature over thousands of years.</p>
+</section>
+
+<section id="benefits" class="benefits fade">
+  <h2 class="title">Why Choose Us?</h2>
+  <div class="benefit-grid">
+    <div class="card">Natural Minerals</div>
+    <div class="card">Fresh Taste</div>
+    <div class="card">Electrolyte Rich</div>
+    <div class="card">Boosts Hydration</div>
+    <div class="card">Quality Assured</div>
+    <div class="card">Eco Bottles</div>
+  </div>
+</section>
+
+<section id="product" class="highlight fade">
+  <h2 class="title">Premium Bottle Design</h2>
+  <img src="assets/mineral-water 1.jpg">
+  <p>
+    Designed for elegance and sustainability.  
+    The bottle offers superior grip, long freshness, and a premium aesthetic suitable for gym, office, and home.
+  </p>
+</section>
+
+<div class="cta fade">
+  <h2 class="title">Stay Pure. Stay Hydrated.</h2>
+  <p>Join thousands choosing the premium hydration lifestyle.</p>
+  <button class="btn" onclick="openModal()">Join Newsletter</button>
+</div>
+
+<footer>
+  © 2025 PureFlow Water. All Rights Reserved.
+</footer>
+
+<!-- BACK TO TOP BUTTON -->
+<button id="topBtn" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+
+<!-- SUBSCRIPTION POPUP -->
+<div id="modal">
+  <div class="modal-box">
+    <h3 style="color: var(--c4); font-size: 22px;">Stay Updated</h3>
+    <input type="email" placeholder="Enter your email">
+    <button class="btn" onclick="closeModal()">Subscribe</button>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
