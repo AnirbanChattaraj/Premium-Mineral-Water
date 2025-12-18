@@ -1,6 +1,6 @@
 The PureFlow Mineral Water Webpage is crafted with a refined, luxurious visual identity inspired by nature, purity, and modern minimalism. Every design choice—colors, typography, spacing, animations—supports a clean, premium aesthetic that evokes freshness, clarity, and elegance.
 
-Design Philosophy
+Design Philosophy:-
 
 The page is built around three core principles:
 Purity. Calmness. Modern Luxury.
@@ -20,7 +20,7 @@ Polished Champagne Beige for luxury accents
 
 Together, they deliver a sense of premium hydration and purity.
 
-2. Elegant Typography
+2. Elegant Typography:-
 
 Modern, sans-serif typefaces with smooth weight transitions give the page a clean and polished feel. Headings are bold and luxurious, while body text is slim and breathable.
 
